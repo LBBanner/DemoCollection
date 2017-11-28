@@ -12,7 +12,12 @@
 		3D949D801FCD5D90007A1AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D949D7E1FCD5D90007A1AF9 /* Main.storyboard */; };
 		3D949D821FCD5D90007A1AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D949D811FCD5D90007A1AF9 /* Assets.xcassets */; };
 		3D949D851FCD5D90007A1AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D949D831FCD5D90007A1AF9 /* LaunchScreen.storyboard */; };
-		3D949D8E1FCD5F3F007A1AF9 /* RockingBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D949D8D1FCD5F3F007A1AF9 /* RockingBarController.swift */; };
+		3D949DA61FCD6186007A1AF9 /* setting_btn_yaogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D949DA11FCD6186007A1AF9 /* setting_btn_yaogan@2x.png */; };
+		3D949DA71FCD6186007A1AF9 /* setting_btn_yaogan_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D949DA21FCD6186007A1AF9 /* setting_btn_yaogan_yellow@2x.png */; };
+		3D949DA81FCD6186007A1AF9 /* setting_yaogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D949DA31FCD6186007A1AF9 /* setting_yaogan@2x.png */; };
+		3D949DA91FCD6186007A1AF9 /* ZLRocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D949DA51FCD6186007A1AF9 /* ZLRocker.m */; };
+		3D949DAC1FCD61C4007A1AF9 /* RockingBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D949DAA1FCD61C4007A1AF9 /* RockingBarController.swift */; };
+		3D949DAD1FCD61C4007A1AF9 /* RockingBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D949DAB1FCD61C4007A1AF9 /* RockingBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +28,14 @@
 		3D949D811FCD5D90007A1AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D949D841FCD5D90007A1AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D949D861FCD5D90007A1AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D949D8D1FCD5F3F007A1AF9 /* RockingBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockingBarController.swift; sourceTree = "<group>"; };
+		3D949D9C1FCD6160007A1AF9 /* DemoCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCollection-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D949DA11FCD6186007A1AF9 /* setting_btn_yaogan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_btn_yaogan@2x.png"; sourceTree = "<group>"; };
+		3D949DA21FCD6186007A1AF9 /* setting_btn_yaogan_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_btn_yaogan_yellow@2x.png"; sourceTree = "<group>"; };
+		3D949DA31FCD6186007A1AF9 /* setting_yaogan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_yaogan@2x.png"; sourceTree = "<group>"; };
+		3D949DA41FCD6186007A1AF9 /* ZLRocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRocker.h; sourceTree = "<group>"; };
+		3D949DA51FCD6186007A1AF9 /* ZLRocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRocker.m; sourceTree = "<group>"; };
+		3D949DAA1FCD61C4007A1AF9 /* RockingBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockingBarController.swift; sourceTree = "<group>"; };
+		3D949DAB1FCD61C4007A1AF9 /* RockingBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RockingBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 				3D949D811FCD5D90007A1AF9 /* Assets.xcassets */,
 				3D949D831FCD5D90007A1AF9 /* LaunchScreen.storyboard */,
 				3D949D861FCD5D90007A1AF9 /* Info.plist */,
+				3D949D9C1FCD6160007A1AF9 /* DemoCollection-Bridging-Header.h */,
 			);
 			path = DemoCollection;
 			sourceTree = "<group>";
@@ -70,9 +83,23 @@
 		3D949D8C1FCD5F1C007A1AF9 /* RockingBarController */ = {
 			isa = PBXGroup;
 			children = (
-				3D949D8D1FCD5F3F007A1AF9 /* RockingBarController.swift */,
+				3D949DA01FCD6186007A1AF9 /* ZLRocker */,
+				3D949DAA1FCD61C4007A1AF9 /* RockingBarController.swift */,
+				3D949DAB1FCD61C4007A1AF9 /* RockingBarController.xib */,
 			);
 			path = RockingBarController;
+			sourceTree = "<group>";
+		};
+		3D949DA01FCD6186007A1AF9 /* ZLRocker */ = {
+			isa = PBXGroup;
+			children = (
+				3D949DA11FCD6186007A1AF9 /* setting_btn_yaogan@2x.png */,
+				3D949DA21FCD6186007A1AF9 /* setting_btn_yaogan_yellow@2x.png */,
+				3D949DA31FCD6186007A1AF9 /* setting_yaogan@2x.png */,
+				3D949DA41FCD6186007A1AF9 /* ZLRocker.h */,
+				3D949DA51FCD6186007A1AF9 /* ZLRocker.m */,
+			);
+			path = ZLRocker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +134,7 @@
 				TargetAttributes = {
 					3D949D761FCD5D90007A1AF9 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,8 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D949D851FCD5D90007A1AF9 /* LaunchScreen.storyboard in Resources */,
+				3D949DA61FCD6186007A1AF9 /* setting_btn_yaogan@2x.png in Resources */,
+				3D949DA81FCD6186007A1AF9 /* setting_yaogan@2x.png in Resources */,
 				3D949D821FCD5D90007A1AF9 /* Assets.xcassets in Resources */,
 				3D949D801FCD5D90007A1AF9 /* Main.storyboard in Resources */,
+				3D949DAD1FCD61C4007A1AF9 /* RockingBarController.xib in Resources */,
+				3D949DA71FCD6186007A1AF9 /* setting_btn_yaogan_yellow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D949D7D1FCD5D90007A1AF9 /* DemoViewController.swift in Sources */,
-				3D949D8E1FCD5F3F007A1AF9 /* RockingBarController.swift in Sources */,
+				3D949DA91FCD6186007A1AF9 /* ZLRocker.m in Sources */,
 				3D949D7B1FCD5D90007A1AF9 /* AppDelegate.swift in Sources */,
+				3D949DAC1FCD61C4007A1AF9 /* RockingBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +319,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lingbinDemo.DemoCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollection/DemoCollection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,12 +337,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lingbinDemo.DemoCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollection/DemoCollection-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
